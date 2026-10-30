@@ -6,6 +6,7 @@
     "packages/*"
   ],
   "scripts": {
+    "build": "npm run build -w packages/server",
     "start": "npm start -w packages/server"
   }
 }
