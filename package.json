@@ -5,8 +5,8 @@
   "workspaces": [
     "packages/*"
   ],
-  "scripts": {
-    "build": "npm run build -w packages/server",
+   "scripts": {
+    "build": "node packages/server/node_modules/typescript/bin/tsc -p packages/server/tsconfig.json",
     "start": "npm start -w packages/server"
   }
 }
