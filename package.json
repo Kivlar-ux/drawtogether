@@ -4,9 +4,5 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ],
-   "scripts": {
-    "build": "node packages/server/node_modules/typescript/bin/tsc -p packages/server/tsconfig.json",
-    "start": "npm start -w packages/server"
-  }
+  ]
 }
